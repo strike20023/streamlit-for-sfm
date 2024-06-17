@@ -1,0 +1,113 @@
+digraph {
+	Root [label=Root shape=box]
+	"Rootcxy
+>=0.125" [label="cxy
+>=0.125" shape=box]
+	Root -> "Rootcxy
+>=0.125"
+	a44f69c62adfbf4183f6f38841ef456ac6d90eeaf15818f4eaf48da0b36bd12a [label="拒绝" shape=box]
+	"Rootcxy
+>=0.125" -> a44f69c62adfbf4183f6f38841ef456ac6d90eeaf15818f4eaf48da0b36bd12a
+	"Rootfxy
+0.01~0.03" [label="fxy
+0.01~0.03" shape=box]
+	Root -> "Rootfxy
+0.01~0.03"
+	"Rootfxy
+0.01~0.03cxy
+<0.025" [label="cxy
+<0.025" shape=box]
+	"Rootfxy
+0.01~0.03" -> "Rootfxy
+0.01~0.03cxy
+<0.025"
+	"0867259e254de073c6753508ab66df20304da0902fa26742cee278158279a82b" [label="接受" shape=box]
+	"Rootfxy
+0.01~0.03cxy
+<0.025" -> "0867259e254de073c6753508ab66df20304da0902fa26742cee278158279a82b"
+	"Rootfxy
+0.01~0.05" [label="fxy
+0.01~0.05" shape=box]
+	Root -> "Rootfxy
+0.01~0.05"
+	"Rootfxy
+0.01~0.05cxy
+0.025~0.075" [label="cxy
+0.025~0.075" shape=box]
+	"Rootfxy
+0.01~0.05" -> "Rootfxy
+0.01~0.05cxy
+0.025~0.075"
+	b63e7a10cd344c40ce235ba06ddd646705e123aef6f8be056b8c09ee2a25807b [label="接受" shape=box]
+	"Rootfxy
+0.01~0.05cxy
+0.025~0.075" -> b63e7a10cd344c40ce235ba06ddd646705e123aef6f8be056b8c09ee2a25807b
+	"Rootfxy
+0.03~0.05" [label="fxy
+0.03~0.05" shape=box]
+	Root -> "Rootfxy
+0.03~0.05"
+	"Rootfxy
+0.03~0.05cxy
+<0.025" [label="cxy
+<0.025" shape=box]
+	"Rootfxy
+0.03~0.05" -> "Rootfxy
+0.03~0.05cxy
+<0.025"
+	"539102bdd7636adfa25650d879eb78a0d1a0f03a2927f4ab5e89d1ed3576b576" [label="拒绝" shape=box]
+	"Rootfxy
+0.03~0.05cxy
+<0.025" -> "539102bdd7636adfa25650d879eb78a0d1a0f03a2927f4ab5e89d1ed3576b576"
+	"Rootfxy
+<0.01" [label="fxy
+<0.01" shape=box]
+	Root -> "Rootfxy
+<0.01"
+	"Rootfxy
+<0.01cxy
+<0.125" [label="cxy
+<0.125" shape=box]
+	"Rootfxy
+<0.01" -> "Rootfxy
+<0.01cxy
+<0.125"
+	"877234a7f6cf5e7ac5017dbe974757244e5d3eb24b9eaf498d37f99b446364af" [label="接受" shape=box]
+	"Rootfxy
+<0.01cxy
+<0.125" -> "877234a7f6cf5e7ac5017dbe974757244e5d3eb24b9eaf498d37f99b446364af"
+	"Rootfxy
+>=0.01" [label="fxy
+>=0.01" shape=box]
+	Root -> "Rootfxy
+>=0.01"
+	"Rootfxy
+>=0.01cxy
+0.075~0.125" [label="cxy
+0.075~0.125" shape=box]
+	"Rootfxy
+>=0.01" -> "Rootfxy
+>=0.01cxy
+0.075~0.125"
+	"69b17f56f4b491f1be9ce79d865075f7ccee5c8c5d92cde5585c03698c38ac53" [label="拒绝" shape=box]
+	"Rootfxy
+>=0.01cxy
+0.075~0.125" -> "69b17f56f4b491f1be9ce79d865075f7ccee5c8c5d92cde5585c03698c38ac53"
+	"Rootfxy
+>=0.05" [label="fxy
+>=0.05" shape=box]
+	Root -> "Rootfxy
+>=0.05"
+	"Rootfxy
+>=0.05cxy
+<0.075" [label="cxy
+<0.075" shape=box]
+	"Rootfxy
+>=0.05" -> "Rootfxy
+>=0.05cxy
+<0.075"
+	c4559301ce5620fd0fbb4e2d4046d7da1c6cdf291e6ad482abed5cb157f15a17 [label="拒绝" shape=box]
+	"Rootfxy
+>=0.05cxy
+<0.075" -> c4559301ce5620fd0fbb4e2d4046d7da1c6cdf291e6ad482abed5cb157f15a17
+}

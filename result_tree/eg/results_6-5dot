@@ -1,0 +1,27 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+graph [ranksep=equally, splines=polyline] ;
+edge [fontname="helvetica"] ;
+0 [label=<fxy &le; 0.05<br/>gini = 0.406<br/>samples = 1545<br/>value = [437.0, 1108.0]<br/>class = 是>, fillcolor="#87c4ef"] ;
+1 [label=<cxy &le; 0.075<br/>gini = 0.29<br/>samples = 1345<br/>value = [237, 1108]<br/>class = 是>, fillcolor="#63b2eb"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<cxy &le; 0.025<br/>gini = 0.175<br/>samples = 1227<br/>value = [119, 1108]<br/>class = 是>, fillcolor="#4ea8e8"] ;
+1 -> 2 ;
+3 [label=<gini = 0.0<br/>samples = 828<br/>value = [0, 828]<br/>class = 是>, fillcolor="#399de5"] ;
+2 -> 3 ;
+4 [label=<fxy &le; 0.03<br/>gini = 0.419<br/>samples = 399<br/>value = [119, 280]<br/>class = 是>, fillcolor="#8dc7f0"] ;
+2 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 280<br/>value = [0, 280]<br/>class = 是>, fillcolor="#399de5"] ;
+4 -> 5 ;
+6 [label=<gini = 0.0<br/>samples = 119<br/>value = [119, 0]<br/>class = 否>, fillcolor="#e58139"] ;
+4 -> 6 ;
+7 [label=<gini = 0.0<br/>samples = 118<br/>value = [118, 0]<br/>class = 否>, fillcolor="#e58139"] ;
+1 -> 7 ;
+8 [label=<gini = 0.0<br/>samples = 200<br/>value = [200, 0]<br/>class = 否>, fillcolor="#e58139"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+{rank=same ; 0} ;
+{rank=same ; 1} ;
+{rank=same ; 2} ;
+{rank=same ; 4} ;
+{rank=same ; 3; 5; 6; 7; 8} ;
+}

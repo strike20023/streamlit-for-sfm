@@ -1,0 +1,5 @@
+digraph {
+	Root [label=Root shape=box]
+	"5498ba8cc4eecd262cb5472f4fccd592a3e843fcc19828fb9d312264892fd27f" [label="拒绝" shape=box]
+	Root -> "5498ba8cc4eecd262cb5472f4fccd592a3e843fcc19828fb9d312264892fd27f"
+}

@@ -1,0 +1,226 @@
+digraph {
+	Root [label=Root shape=box]
+	"Rootcxy
+>=0.475" [label="cxy
+>=0.475" shape=box]
+	Root -> "Rootcxy
+>=0.475"
+	f2ab5ca6223d595dae4af8d4b9f20ccd3d93dfda7d1653b9fc4ec252a1b5c36a [label="拒绝" shape=box]
+	"Rootcxy
+>=0.475" -> f2ab5ca6223d595dae4af8d4b9f20ccd3d93dfda7d1653b9fc4ec252a1b5c36a
+	"Rootfxy
+-0.005~0.105" [label="fxy
+-0.005~0.105" shape=box]
+	Root -> "Rootfxy
+-0.005~0.105"
+	"Rootfxy
+-0.005~0.105cxy
+<-0.575" [label="cxy
+<-0.575" shape=box]
+	"Rootfxy
+-0.005~0.105" -> "Rootfxy
+-0.005~0.105cxy
+<-0.575"
+	feb72dcc03d6950ba0b793c62761fa2871968f963044d36b4ab233b0d0f76515 [label="拒绝" shape=box]
+	"Rootfxy
+-0.005~0.105cxy
+<-0.575" -> feb72dcc03d6950ba0b793c62761fa2871968f963044d36b4ab233b0d0f76515
+	"Rootfxy
+<-0.005" [label="fxy
+<-0.005" shape=box]
+	Root -> "Rootfxy
+<-0.005"
+	"Rootfxy
+<-0.005cxy
+<-0.575" [label="cxy
+<-0.575" shape=box]
+	"Rootfxy
+<-0.005" -> "Rootfxy
+<-0.005cxy
+<-0.575"
+	c82bfad86bc99a5c9500b978e53372b85643948cec3126044e60805faecaa539 [label="接受" shape=box]
+	"Rootfxy
+<-0.005cxy
+<-0.575" -> c82bfad86bc99a5c9500b978e53372b85643948cec3126044e60805faecaa539
+	"Rootfxy
+>=0.105" [label="fxy
+>=0.105" shape=box]
+	Root -> "Rootfxy
+>=0.105"
+	"Rootfxy
+>=0.105cxy
+<0.475" [label="cxy
+<0.475" shape=box]
+	"Rootfxy
+>=0.105" -> "Rootfxy
+>=0.105cxy
+<0.475"
+	"559ae7c635deb419047b1f6568883280ee3f361fb0ad3f673d88677d7a71eb06" [label="拒绝" shape=box]
+	"Rootfxy
+>=0.105cxy
+<0.475" -> "559ae7c635deb419047b1f6568883280ee3f361fb0ad3f673d88677d7a71eb06"
+	"Rootpercentage
+<0.45" [label="percentage
+<0.45" shape=box]
+	Root -> "Rootpercentage
+<0.45"
+	"Rootpercentage
+<0.45fxy
+<0.105" [label="fxy
+<0.105" shape=box]
+	"Rootpercentage
+<0.45" -> "Rootpercentage
+<0.45fxy
+<0.105"
+	"Rootpercentage
+<0.45fxy
+<0.105cxy
+0.425~0.475" [label="cxy
+0.425~0.475" shape=box]
+	"Rootpercentage
+<0.45fxy
+<0.105" -> "Rootpercentage
+<0.45fxy
+<0.105cxy
+0.425~0.475"
+	acb6e9d2d57e6eeb0db521520dfd7d0dfa180473bf5d59cc9bf77bf3333168c2 [label="拒绝" shape=box]
+	"Rootpercentage
+<0.45fxy
+<0.105cxy
+0.425~0.475" -> acb6e9d2d57e6eeb0db521520dfd7d0dfa180473bf5d59cc9bf77bf3333168c2
+	"Rootpercentage
+<0.775" [label="percentage
+<0.775" shape=box]
+	Root -> "Rootpercentage
+<0.775"
+	"Rootpercentage
+<0.775fxy
+-0.075~0.105" [label="fxy
+-0.075~0.105" shape=box]
+	"Rootpercentage
+<0.775" -> "Rootpercentage
+<0.775fxy
+-0.075~0.105"
+	"Rootpercentage
+<0.775fxy
+-0.075~0.105cxy
+-0.575~0.425" [label="cxy
+-0.575~0.425" shape=box]
+	"Rootpercentage
+<0.775fxy
+-0.075~0.105" -> "Rootpercentage
+<0.775fxy
+-0.075~0.105cxy
+-0.575~0.425"
+	"233842c0c5186caee640a619a1245dfc15ad3541e26d9020016d3839f82ff2d8" [label="拒绝" shape=box]
+	"Rootpercentage
+<0.775fxy
+-0.075~0.105cxy
+-0.575~0.425" -> "233842c0c5186caee640a619a1245dfc15ad3541e26d9020016d3839f82ff2d8"
+	"Rootpercentage
+<0.775fxy
+<-0.075" [label="fxy
+<-0.075" shape=box]
+	"Rootpercentage
+<0.775" -> "Rootpercentage
+<0.775fxy
+<-0.075"
+	"Rootpercentage
+<0.775fxy
+<-0.075cxy
+-0.575~0.425" [label="cxy
+-0.575~0.425" shape=box]
+	"Rootpercentage
+<0.775fxy
+<-0.075" -> "Rootpercentage
+<0.775fxy
+<-0.075cxy
+-0.575~0.425"
+	e9716763debf72b1a2c83c4e0481362e4e8d1092906fe04b2c27fb8d137a5a7b [label="拒绝" shape=box]
+	"Rootpercentage
+<0.775fxy
+<-0.075cxy
+-0.575~0.425" -> e9716763debf72b1a2c83c4e0481362e4e8d1092906fe04b2c27fb8d137a5a7b
+	"Rootpercentage
+>=0.45" [label="percentage
+>=0.45" shape=box]
+	Root -> "Rootpercentage
+>=0.45"
+	"Rootpercentage
+>=0.45fxy
+<0.105" [label="fxy
+<0.105" shape=box]
+	"Rootpercentage
+>=0.45" -> "Rootpercentage
+>=0.45fxy
+<0.105"
+	"Rootpercentage
+>=0.45fxy
+<0.105cxy
+0.425~0.475" [label="cxy
+0.425~0.475" shape=box]
+	"Rootpercentage
+>=0.45fxy
+<0.105" -> "Rootpercentage
+>=0.45fxy
+<0.105cxy
+0.425~0.475"
+	"10276c7f5eb866b63be1eda30c6b10c28283ac46c2726c7909400a55f469f057" [label="接受" shape=box]
+	"Rootpercentage
+>=0.45fxy
+<0.105cxy
+0.425~0.475" -> "10276c7f5eb866b63be1eda30c6b10c28283ac46c2726c7909400a55f469f057"
+	"Rootpercentage
+>=0.775" [label="percentage
+>=0.775" shape=box]
+	Root -> "Rootpercentage
+>=0.775"
+	"Rootpercentage
+>=0.775fxy
+-0.055~0.105" [label="fxy
+-0.055~0.105" shape=box]
+	"Rootpercentage
+>=0.775" -> "Rootpercentage
+>=0.775fxy
+-0.055~0.105"
+	"Rootpercentage
+>=0.775fxy
+-0.055~0.105cxy
+-0.575~0.425" [label="cxy
+-0.575~0.425" shape=box]
+	"Rootpercentage
+>=0.775fxy
+-0.055~0.105" -> "Rootpercentage
+>=0.775fxy
+-0.055~0.105cxy
+-0.575~0.425"
+	"96defac4f077a0c38e807510e241ff79a0a35ab9cd90b797fb46fb5f83769ec1" [label="接受" shape=box]
+	"Rootpercentage
+>=0.775fxy
+-0.055~0.105cxy
+-0.575~0.425" -> "96defac4f077a0c38e807510e241ff79a0a35ab9cd90b797fb46fb5f83769ec1"
+	"Rootpercentage
+>=0.775fxy
+<-0.055" [label="fxy
+<-0.055" shape=box]
+	"Rootpercentage
+>=0.775" -> "Rootpercentage
+>=0.775fxy
+<-0.055"
+	"Rootpercentage
+>=0.775fxy
+<-0.055cxy
+-0.575~0.425" [label="cxy
+-0.575~0.425" shape=box]
+	"Rootpercentage
+>=0.775fxy
+<-0.055" -> "Rootpercentage
+>=0.775fxy
+<-0.055cxy
+-0.575~0.425"
+	"68637ffc05f00e8b149f531699ac6442b096ee166092720a3d1ece3c41463b7f" [label="拒绝" shape=box]
+	"Rootpercentage
+>=0.775fxy
+<-0.055cxy
+-0.575~0.425" -> "68637ffc05f00e8b149f531699ac6442b096ee166092720a3d1ece3c41463b7f"
+}

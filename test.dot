@@ -1,0 +1,15 @@
+digraph Tree {
+    node0 [label = "feature1 <= 1.00";];
+    node1 [label = "leaf: 0.00";shape = box;];
+    node0 -> node1 [label = "True";];
+    node2 [label = "feature2 <= 1.00";];
+    node0 -> node2 [label = "False";];
+    node5 [label = "leaf: 0.00";shape = box;];
+    node2 -> node5 [label = "True";];
+    node6 [label = "feature1 <= 2.00";];
+    node2 -> node6 [label = "False";];
+    node13 [label = "leaf: 1.00";shape = box;];
+    node6 -> node13 [label = "True";];
+    node14 [label = "leaf: 0.50";shape = box;];
+    node6 -> node14 [label = "False";];
+}
