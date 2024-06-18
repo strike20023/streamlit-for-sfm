@@ -3,7 +3,7 @@ import time
 from pathlib import Path
 from utils.run_command import experimental_results_img
 from utils.make_plot import display_plot
-from 定位测姿误差分析平台 import 加载图片, render_svg
+from 定位测姿误差分析平台 import 加载图片, render_svg, check_button_clicked
 import os
 import json
 st.markdown(
@@ -56,15 +56,16 @@ def app():
     )
 
     print(param)
-    计算_btn = st.button("开始计算")
-    if 计算_btn:
+    if check_button_clicked('开始计算'):
         analysis(param)
     if param['variance'] == '0.3 2.1' \
         and param['percentage'] == '0.0 1.0' \
         and param['fxy'] == '-0.3 0.3' \
         and param['cxy'] == '-0.3 0.3':
-        分析_btn = st.button("开始分析")
-        if 分析_btn:
-            display_plot(st, '/mnt/ST8000/huangzhe/海纹项目/streamlit_app/result_img/eg')
+        # 分析_btn = st.button("开始分析")
+        
+        if check_button_clicked("开始分析"):
+            # 保存状态
+            display_plot(st, 'result_img/eg')
 
 app()

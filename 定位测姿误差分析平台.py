@@ -6,6 +6,13 @@ from pathlib import Path
 import re
 st.set_page_config(page_title="定位测姿误差分析平台", layout='wide')
 
+def check_button_clicked(button_name):
+    if st.button(button_name):
+        st.session_state[button_name] = True
+    if button_name not in st.session_state:
+        st.session_state[button_name] = False
+    return st.session_state[button_name]
+
 @st.cache_resource()
 def 加载图片(paths):
     with st.expander("照片组👇",expanded=False):
@@ -45,7 +52,7 @@ def get_binary_file_downloader_html(bin_file):
     href = f'<a href="data:application/octet-stream;base64,{bin_str}" download="{os.path.basename(bin_file)}">📝</a>'
     return href
 
-st.markdown("""<style>#MainMenu {visibility: hidden;} footer {visibility: hidden;}</style>""", unsafe_allow_html=True)
+# st.markdown("""<style>#MainMenu {visibility: hidden;} footer {visibility: hidden;}</style>""", unsafe_allow_html=True)
 
 st.write("# 欢迎使用定位试姿误差分析平台！")
 
