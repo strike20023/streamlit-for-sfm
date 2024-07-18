@@ -3,33 +3,32 @@ import time
 from pathlib import Path
 import base64
 import re
+import json
+import os
+from utils.tree_static import get_tree
+
 from 定位测姿误差分析平台 import 加载图片, render_svg
 from utils.run_command import RL_inference
-from utils.make_treev2 import 绘制决策树
-
-st.markdown(
-    """<style>#MainMenu {visibility: hidden;} footer {visibility: hidden;}</style>""",
-    unsafe_allow_html=True,
-)
-
-
 
 def analysis(param):
-    param['results_path']='/mnt/ST8000/huangzhe/海纹项目/streamlit_app/result_trees/rh_result.csv'
+    param['results_path']=Path('result_tree/eg/results_6-5.csv')
     with st.status("正在分析", expanded=False) as status:
         status.update(label="正在读取图片...")
-        param = RL_inference(param, status)
+        # param = RL_inference(param, status)
         status.update(label="正在重建结果...")
-        绘制决策树(param['results_path'],param['results_path'].replace('.csv','.dot'))
+        get_tree(
+            'utils/分支.csv', 
+            param['results_path'],
+            'svg'
+            )
         status.update(label="分析结果👇", state="complete", expanded=True)
-        render_svg(param['results_path'].replace('.csv','.dot')+'.svg')
-
+        render_svg(param['results_path'].parent/'tree.svg')
 
 def app():
     加载图片("data")
     st.write("## 参数设置")
     param = dict()
-    param['DATA_DIR'] = st.selectbox("选择图片组", [i.stem for i in list(Path("data").glob('*')) if (i/'images').exists()])
+    param['DATA_DIR'] = st.selectbox("选择图片组", sorted([i.stem for i in list(Path("data").glob('*')) if (i/'images').exists()]))
     param.update(
         {
             'reward_threshold':st.number_input("位姿点偏移误差", 0., 1., 0.05, 0.01),
@@ -53,18 +52,34 @@ def app():
             'cxy_action':col[3].number_input("光轴偏移步长", 0., 1., 0.05, 0.01),
         }
     )
-    # import json
-    # print(json.dumps(param))
     计算_btn = st.button("开始计算")
     if 计算_btn:
             analysis(param)
-    if param['variance'] == 0.1 \
-        and param['percentage'] == 0.05 \
-        and param['fxy_action'] == 0.02 \
-        and param['cxy_action'] == 0.05:
+    info = {i.parent.stem:json.load(open(i, 'r')) for i in Path('result_tree/exp').rglob('info.json')}
+    print(info)
+    print(param)
+
+    exist_path = None
+    for k, v in info.items():
+        is_same = True
+        for key in param.keys():
+            if param[key] != v[key]:
+                is_same = False
+                break
+        if is_same:
+            exist_path = k
+            break
+    if exist_path:
         分析_btn = st.button("开始分析")
         if 分析_btn:
-            render_svg('/mnt/ST8000/huangzhe/海纹项目/streamlit_app/result_tree/eg/四因素_0319.dot.svg')
+            svg_path = Path('result_tree/exp')/exist_path/'tree.svg'
+            if not os.path.exists(svg_path):
+                get_tree(
+                    'utils/分支.csv', 
+                    list((Path('result_tree/exp')/exist_path).glob('*.csv'))[0],
+                    'svg'
+                    )
+            render_svg(svg_path)
 
 
 app()

@@ -1,0 +1,1806 @@
+digraph {
+	Root [label=Root shape=box]
+	"Rootfxy
+0.02~0.03" [label="fxy
+0.02~0.03" shape=box]
+	Root -> "Rootfxy
+0.02~0.03"
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3" [label="percentage
+0.0~0.3" shape=box]
+	"Rootfxy
+0.02~0.03" -> "Rootfxy
+0.02~0.03percentage
+0.0~0.3"
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.3~0.8" [label="variance
+0.3~0.8" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3" -> "Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.3~0.8"
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.3~0.8" -> "Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0"
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0" -> "Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0拒绝"
+	"408f0fc7e86df50a3c3a22a68f3ceb5de7df11dfde8dfdeecd1b7a684fc2d004" [label="[15, 15]" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0拒绝" -> "408f0fc7e86df50a3c3a22a68f3ceb5de7df11dfde8dfdeecd1b7a684fc2d004"
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4" [label="variance
+0.9~1.4" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3" -> "Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4"
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4" -> "Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0"
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0接受" [label="接受" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0" -> "Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0接受"
+	"3ea602e19ad89e06515ced420d693d39ba0b2feacb0b7f0c2dede21676642de5" [label="[13, 7]" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0接受" -> "3ea602e19ad89e06515ced420d693d39ba0b2feacb0b7f0c2dede21676642de5"
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1" [label="variance
+1.5~2.1" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3" -> "Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1"
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1" -> "Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0"
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0接受" [label="接受" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0" -> "Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0接受"
+	f5ffd2cccfc802045bc98f13d7e70f0446570bf116fbe4003381a8b19ebde1c1 [label="[3, 2]" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0接受" -> f5ffd2cccfc802045bc98f13d7e70f0446570bf116fbe4003381a8b19ebde1c1
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7" [label="percentage
+0.4~0.7" shape=box]
+	"Rootfxy
+0.02~0.03" -> "Rootfxy
+0.02~0.03percentage
+0.4~0.7"
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8" [label="variance
+0.3~0.8" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7" -> "Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8"
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8" -> "Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0"
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0接受" [label="接受" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0" -> "Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0接受"
+	"0fa1de5951da467ffcec3be56a390e15d49e85ad4cc4435caa23c3b3e0734f22" [label="[15, 14]" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0接受" -> "0fa1de5951da467ffcec3be56a390e15d49e85ad4cc4435caa23c3b3e0734f22"
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4" [label="variance
+0.9~1.4" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7" -> "Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4"
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4" -> "Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0"
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0接受" [label="接受" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0" -> "Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0接受"
+	"7e592f27bd92fa8704ee95110bdc68be07fd873fecd14900a675048dde01bc8b" [label="[9, 8]" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0接受" -> "7e592f27bd92fa8704ee95110bdc68be07fd873fecd14900a675048dde01bc8b"
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+1.5~2.1" [label="variance
+1.5~2.1" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7" -> "Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+1.5~2.1"
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+1.5~2.1" -> "Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0"
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0" -> "Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0拒绝"
+	"1febcb5f837705948059168cbb49187b6256ef2fb07b8824e07fa006b6cf71a4" [label="[0, 3]" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0拒绝" -> "1febcb5f837705948059168cbb49187b6256ef2fb07b8824e07fa006b6cf71a4"
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0" [label="percentage
+0.7~1.0" shape=box]
+	"Rootfxy
+0.02~0.03" -> "Rootfxy
+0.02~0.03percentage
+0.7~1.0"
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.3~0.8" [label="variance
+0.3~0.8" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0" -> "Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.3~0.8"
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.3~0.8" -> "Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0"
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0" -> "Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0拒绝"
+	b7c8b0c4ee1d9c6390948b8dbe0e4652ce75bc9a1802b035e08c64597a71c7b2 [label="[11, 14]" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0拒绝" -> b7c8b0c4ee1d9c6390948b8dbe0e4652ce75bc9a1802b035e08c64597a71c7b2
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.9~1.4" [label="variance
+0.9~1.4" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0" -> "Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.9~1.4"
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.9~1.4" -> "Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0"
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0" -> "Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0拒绝"
+	"8ab718b1da02a768c4a54fde86508ea7f674e4e5d78cadf4df18e2ece843f4e8" [label="[1, 12]" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0拒绝" -> "8ab718b1da02a768c4a54fde86508ea7f674e4e5d78cadf4df18e2ece843f4e8"
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+1.5~2.1" [label="variance
+1.5~2.1" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0" -> "Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+1.5~2.1"
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+1.5~2.1" -> "Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0"
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0" -> "Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0拒绝"
+	"701cd9c73fc032f3903a8cc189425730977a3ca4dcd910871456d03455db3f97" [label="[1, 3]" shape=box]
+	"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0拒绝" -> "701cd9c73fc032f3903a8cc189425730977a3ca4dcd910871456d03455db3f97"
+	"Rootfxy
+0.04~1.0" [label="fxy
+0.04~1.0" shape=box]
+	Root -> "Rootfxy
+0.04~1.0"
+	"Rootfxy
+0.04~1.0percentage
+0.0~0.3" [label="percentage
+0.0~0.3" shape=box]
+	"Rootfxy
+0.04~1.0" -> "Rootfxy
+0.04~1.0percentage
+0.0~0.3"
+	"Rootfxy
+0.04~1.0percentage
+0.0~0.3variance
+0.3~0.8" [label="variance
+0.3~0.8" shape=box]
+	"Rootfxy
+0.04~1.0percentage
+0.0~0.3" -> "Rootfxy
+0.04~1.0percentage
+0.0~0.3variance
+0.3~0.8"
+	"Rootfxy
+0.04~1.0percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.04~1.0percentage
+0.0~0.3variance
+0.3~0.8" -> "Rootfxy
+0.04~1.0percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0"
+	"Rootfxy
+0.04~1.0percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.04~1.0percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0" -> "Rootfxy
+0.04~1.0percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0拒绝"
+	"6fb72234c7e63f767f642b70546c7297379e8c201a76e33598b62bfe0c6eee98" [label="[0, 11]" shape=box]
+	"Rootfxy
+0.04~1.0percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0拒绝" -> "6fb72234c7e63f767f642b70546c7297379e8c201a76e33598b62bfe0c6eee98"
+	"Rootfxy
+0.04~1.0percentage
+0.4~0.7" [label="percentage
+0.4~0.7" shape=box]
+	"Rootfxy
+0.04~1.0" -> "Rootfxy
+0.04~1.0percentage
+0.4~0.7"
+	"Rootfxy
+0.04~1.0percentage
+0.4~0.7variance
+0.3~0.8" [label="variance
+0.3~0.8" shape=box]
+	"Rootfxy
+0.04~1.0percentage
+0.4~0.7" -> "Rootfxy
+0.04~1.0percentage
+0.4~0.7variance
+0.3~0.8"
+	"Rootfxy
+0.04~1.0percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.04~1.0percentage
+0.4~0.7variance
+0.3~0.8" -> "Rootfxy
+0.04~1.0percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0"
+	"Rootfxy
+0.04~1.0percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.04~1.0percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0" -> "Rootfxy
+0.04~1.0percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0拒绝"
+	"0be80d2ee973658d02a532d0c4425d870928104206bca9271fbf52263039f029" [label="[0, 4]" shape=box]
+	"Rootfxy
+0.04~1.0percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0拒绝" -> "0be80d2ee973658d02a532d0c4425d870928104206bca9271fbf52263039f029"
+	"Rootfxy
+0.04~1.0percentage
+0.7~1.0" [label="percentage
+0.7~1.0" shape=box]
+	"Rootfxy
+0.04~1.0" -> "Rootfxy
+0.04~1.0percentage
+0.7~1.0"
+	"Rootfxy
+0.04~1.0percentage
+0.7~1.0variance
+0.3~0.8" [label="variance
+0.3~0.8" shape=box]
+	"Rootfxy
+0.04~1.0percentage
+0.7~1.0" -> "Rootfxy
+0.04~1.0percentage
+0.7~1.0variance
+0.3~0.8"
+	"Rootfxy
+0.04~1.0percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.04~1.0percentage
+0.7~1.0variance
+0.3~0.8" -> "Rootfxy
+0.04~1.0percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0"
+	"Rootfxy
+0.04~1.0percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.04~1.0percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0" -> "Rootfxy
+0.04~1.0percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0拒绝"
+	a54501d692d26cefc92c2a6ae12345a708d42594903e710d8ec9f5f7dff9e72f [label="[0, 1]" shape=box]
+	"Rootfxy
+0.04~1.0percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0拒绝" -> a54501d692d26cefc92c2a6ae12345a708d42594903e710d8ec9f5f7dff9e72f
+	"Rootfxy
+0.0~0.01" [label="fxy
+0.0~0.01" shape=box]
+	Root -> "Rootfxy
+0.0~0.01"
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3" [label="percentage
+0.0~0.3" shape=box]
+	"Rootfxy
+0.0~0.01" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3"
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8" [label="variance
+0.3~0.8" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8"
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0接受" [label="接受" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0接受"
+	d0bcbe0adafca52958a9917e6d7f1a112106bcdef14d1e0c438af46a26d41a56 [label="[30, 15]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0接受" -> d0bcbe0adafca52958a9917e6d7f1a112106bcdef14d1e0c438af46a26d41a56
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.2~1.0" [label="cxy
+0.2~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.2~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.2~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.2~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.2~1.0拒绝"
+	"824bea8c8a0f94a72916629ec36d98b0c0aa5bb7c5f7502986867fe8463e9321" [label="[0, 15]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.2~1.0拒绝" -> "824bea8c8a0f94a72916629ec36d98b0c0aa5bb7c5f7502986867fe8463e9321"
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4" [label="variance
+0.9~1.4" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4"
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0接受" [label="接受" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0接受"
+	"3408a81728f783fe0bbf38d25e00eb7d7415b26482dc11cacbacd7eb63f9c8ac" [label="[30, 14]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0接受" -> "3408a81728f783fe0bbf38d25e00eb7d7415b26482dc11cacbacd7eb63f9c8ac"
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.2~1.0" [label="cxy
+0.2~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.2~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.2~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.2~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.2~1.0拒绝"
+	"0117547e30183f5ea971d6b10feba7f15bacbdd4e470c5367d4212848459e21b" [label="[0, 14]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.2~1.0拒绝" -> "0117547e30183f5ea971d6b10feba7f15bacbdd4e470c5367d4212848459e21b"
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1" [label="variance
+1.5~2.1" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1"
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0接受" [label="接受" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0接受"
+	cb0a121ba93578481e9c41ec5de84afea995e88ebf1fbdfa9136d562e55c41f4 [label="[36, 4]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0接受" -> cb0a121ba93578481e9c41ec5de84afea995e88ebf1fbdfa9136d562e55c41f4
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.2~1.0" [label="cxy
+0.2~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.2~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.2~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.2~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.2~1.0拒绝"
+	"8260046c40223cc836b7505031ba172602c5a3a4035c2e1c5a5e9bb3a3a1fdcf" [label="[0, 4]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.2~1.0拒绝" -> "8260046c40223cc836b7505031ba172602c5a3a4035c2e1c5a5e9bb3a3a1fdcf"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7" [label="percentage
+0.4~0.7" shape=box]
+	"Rootfxy
+0.0~0.01" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8" [label="variance
+0.3~0.8" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0接受" [label="接受" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0接受"
+	"39a7280cb74e9761f1eb91a7e147cf8473159f0f337f4bcf7b924c812dbd7bf9" [label="[30, 15]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0接受" -> "39a7280cb74e9761f1eb91a7e147cf8473159f0f337f4bcf7b924c812dbd7bf9"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.2~1.0" [label="cxy
+0.2~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.2~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.2~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.2~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.2~1.0拒绝"
+	"7c991bdcb17622ea48b1dd524f87e62e4d6c5b84a5d00b7afda253bbeded52af" [label="[0, 15]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.2~1.0拒绝" -> "7c991bdcb17622ea48b1dd524f87e62e4d6c5b84a5d00b7afda253bbeded52af"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4" [label="variance
+0.9~1.4" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0接受" [label="接受" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0接受"
+	d44fedcd1b41f5612d089f99cc77f5e776cdf89a82c98c889dd74bec32ed776f [label="[30, 13]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0接受" -> d44fedcd1b41f5612d089f99cc77f5e776cdf89a82c98c889dd74bec32ed776f
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.2~1.0" [label="cxy
+0.2~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.2~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.2~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.2~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.2~1.0拒绝"
+	"7264da530dac0bce434623a1b9778adc7a32717580f8d6733e26a52f5b34b61e" [label="[0, 13]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.2~1.0拒绝" -> "7264da530dac0bce434623a1b9778adc7a32717580f8d6733e26a52f5b34b61e"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1" [label="variance
+1.5~2.1" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0接受" [label="接受" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0接受"
+	"15b2d03bc47f0608e0227f11c287f877e50a2c251f8b125224390d33ad0d481a" [label="[36, 11]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0接受" -> "15b2d03bc47f0608e0227f11c287f877e50a2c251f8b125224390d33ad0d481a"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.2~1.0" [label="cxy
+0.2~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.2~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.2~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.2~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.2~1.0拒绝"
+	"81408ef7d070c95207790914c2b9671fd36e106c398f43a1ee9a1757494e5754" [label="[0, 11]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.2~1.0拒绝" -> "81408ef7d070c95207790914c2b9671fd36e106c398f43a1ee9a1757494e5754"
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0" [label="percentage
+0.7~1.0" shape=box]
+	"Rootfxy
+0.0~0.01" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8" [label="variance
+0.3~0.8" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8"
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0接受" [label="接受" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0接受"
+	"24f6aae780f757bb3d43e2aa873bbfbc996c18b67ba50416b3e9f67096ecfc66" [label="[30, 8]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0接受" -> "24f6aae780f757bb3d43e2aa873bbfbc996c18b67ba50416b3e9f67096ecfc66"
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.2~1.0" [label="cxy
+0.2~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.2~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.2~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.2~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.2~1.0拒绝"
+	"9e4f5a3bd7c0cb8b84337a297163770f2fd3cadb26df05251584d07bfaadb610" [label="[0, 8]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.2~1.0拒绝" -> "9e4f5a3bd7c0cb8b84337a297163770f2fd3cadb26df05251584d07bfaadb610"
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4" [label="variance
+0.9~1.4" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4"
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0接受" [label="接受" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0接受"
+	c39e4032429d96ad53d86398c64e864fddfac877188d4c54577cba2f7ef10a0b [label="[30, 8]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0接受" -> c39e4032429d96ad53d86398c64e864fddfac877188d4c54577cba2f7ef10a0b
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.2~1.0" [label="cxy
+0.2~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.2~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.2~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.2~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.2~1.0拒绝"
+	aae172c4f8efe01f6fea2bc67d27a32ba62d5e4d70aa4a2fbec893e1b10d3c73 [label="[0, 8]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.2~1.0拒绝" -> aae172c4f8efe01f6fea2bc67d27a32ba62d5e4d70aa4a2fbec893e1b10d3c73
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1" [label="variance
+1.5~2.1" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1"
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0" [label="cxy
+0.0~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0接受" [label="接受" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0接受"
+	dedffe1881eb552bf69cd46140636ca31cf86c91238be10af6fce1fd3dd2d78d [label="[36, 13]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0接受" -> dedffe1881eb552bf69cd46140636ca31cf86c91238be10af6fce1fd3dd2d78d
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.2~1.0" [label="cxy
+0.2~1.0" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.2~1.0"
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.2~1.0拒绝" [label="拒绝" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.2~1.0" -> "Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.2~1.0拒绝"
+	a24472f625c8f5efc3b9072e9ca327a833d5771253dbdb32eeb60ce8a912d6d5 [label="[0, 13]" shape=box]
+	"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.2~1.0拒绝" -> a24472f625c8f5efc3b9072e9ca327a833d5771253dbdb32eeb60ce8a912d6d5
+	{
+		rank=same
+		"Rootfxy
+0.02~0.03"
+		"Rootfxy
+0.04~1.0"
+		"Rootfxy
+0.0~0.01"
+	}
+	{
+		rank=same
+		"Rootfxy
+0.02~0.03percentage
+0.0~0.3"
+		"Rootfxy
+0.02~0.03percentage
+0.4~0.7"
+		"Rootfxy
+0.02~0.03percentage
+0.7~1.0"
+		"Rootfxy
+0.04~1.0percentage
+0.0~0.3"
+		"Rootfxy
+0.04~1.0percentage
+0.4~0.7"
+		"Rootfxy
+0.04~1.0percentage
+0.7~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0"
+	}
+	{
+		rank=same
+		"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.3~0.8"
+		"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4"
+		"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1"
+		"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8"
+		"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4"
+		"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+1.5~2.1"
+		"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.3~0.8"
+		"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.9~1.4"
+		"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+1.5~2.1"
+		"Rootfxy
+0.04~1.0percentage
+0.0~0.3variance
+0.3~0.8"
+		"Rootfxy
+0.04~1.0percentage
+0.4~0.7variance
+0.3~0.8"
+		"Rootfxy
+0.04~1.0percentage
+0.7~1.0variance
+0.3~0.8"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1"
+	}
+	{
+		rank=same
+		"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0"
+		"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0"
+		"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0"
+		"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0"
+		"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0"
+		"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0"
+		"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0"
+		"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0"
+		"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0"
+		"Rootfxy
+0.04~1.0percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0"
+		"Rootfxy
+0.04~1.0percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0"
+		"Rootfxy
+0.04~1.0percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.2~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.2~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.2~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.2~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.2~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.2~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.2~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.2~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.2~1.0"
+	}
+	{
+		rank=same
+		"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0拒绝"
+		"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0接受"
+		"Rootfxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0接受"
+		"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0接受"
+		"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0接受"
+		"Rootfxy
+0.02~0.03percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0拒绝"
+		"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0拒绝"
+		"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0拒绝"
+		"Rootfxy
+0.02~0.03percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0拒绝"
+		"Rootfxy
+0.04~1.0percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0拒绝"
+		"Rootfxy
+0.04~1.0percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0拒绝"
+		"Rootfxy
+0.04~1.0percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0拒绝"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.0~1.0接受"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.2~1.0拒绝"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.0~1.0接受"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4cxy
+0.2~1.0拒绝"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.0~1.0接受"
+		"Rootfxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1cxy
+0.2~1.0拒绝"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.0~1.0接受"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8cxy
+0.2~1.0拒绝"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.0~1.0接受"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4cxy
+0.2~1.0拒绝"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.0~1.0接受"
+		"Rootfxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1cxy
+0.2~1.0拒绝"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.0~1.0接受"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8cxy
+0.2~1.0拒绝"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.0~1.0接受"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4cxy
+0.2~1.0拒绝"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.0~1.0接受"
+		"Rootfxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1cxy
+0.2~1.0拒绝"
+	}
+	{
+		rank=same
+		"408f0fc7e86df50a3c3a22a68f3ceb5de7df11dfde8dfdeecd1b7a684fc2d004"
+		"3ea602e19ad89e06515ced420d693d39ba0b2feacb0b7f0c2dede21676642de5"
+		f5ffd2cccfc802045bc98f13d7e70f0446570bf116fbe4003381a8b19ebde1c1
+		"0fa1de5951da467ffcec3be56a390e15d49e85ad4cc4435caa23c3b3e0734f22"
+		"7e592f27bd92fa8704ee95110bdc68be07fd873fecd14900a675048dde01bc8b"
+		"1febcb5f837705948059168cbb49187b6256ef2fb07b8824e07fa006b6cf71a4"
+		b7c8b0c4ee1d9c6390948b8dbe0e4652ce75bc9a1802b035e08c64597a71c7b2
+		"8ab718b1da02a768c4a54fde86508ea7f674e4e5d78cadf4df18e2ece843f4e8"
+		"701cd9c73fc032f3903a8cc189425730977a3ca4dcd910871456d03455db3f97"
+		"6fb72234c7e63f767f642b70546c7297379e8c201a76e33598b62bfe0c6eee98"
+		"0be80d2ee973658d02a532d0c4425d870928104206bca9271fbf52263039f029"
+		a54501d692d26cefc92c2a6ae12345a708d42594903e710d8ec9f5f7dff9e72f
+		d0bcbe0adafca52958a9917e6d7f1a112106bcdef14d1e0c438af46a26d41a56
+		"824bea8c8a0f94a72916629ec36d98b0c0aa5bb7c5f7502986867fe8463e9321"
+		"3408a81728f783fe0bbf38d25e00eb7d7415b26482dc11cacbacd7eb63f9c8ac"
+		"0117547e30183f5ea971d6b10feba7f15bacbdd4e470c5367d4212848459e21b"
+		cb0a121ba93578481e9c41ec5de84afea995e88ebf1fbdfa9136d562e55c41f4
+		"8260046c40223cc836b7505031ba172602c5a3a4035c2e1c5a5e9bb3a3a1fdcf"
+		"39a7280cb74e9761f1eb91a7e147cf8473159f0f337f4bcf7b924c812dbd7bf9"
+		"7c991bdcb17622ea48b1dd524f87e62e4d6c5b84a5d00b7afda253bbeded52af"
+		d44fedcd1b41f5612d089f99cc77f5e776cdf89a82c98c889dd74bec32ed776f
+		"7264da530dac0bce434623a1b9778adc7a32717580f8d6733e26a52f5b34b61e"
+		"15b2d03bc47f0608e0227f11c287f877e50a2c251f8b125224390d33ad0d481a"
+		"81408ef7d070c95207790914c2b9671fd36e106c398f43a1ee9a1757494e5754"
+		"24f6aae780f757bb3d43e2aa873bbfbc996c18b67ba50416b3e9f67096ecfc66"
+		"9e4f5a3bd7c0cb8b84337a297163770f2fd3cadb26df05251584d07bfaadb610"
+		c39e4032429d96ad53d86398c64e864fddfac877188d4c54577cba2f7ef10a0b
+		aae172c4f8efe01f6fea2bc67d27a32ba62d5e4d70aa4a2fbec893e1b10d3c73
+		dedffe1881eb552bf69cd46140636ca31cf86c91238be10af6fce1fd3dd2d78d
+		a24472f625c8f5efc3b9072e9ca327a833d5771253dbdb32eeb60ce8a912d6d5
+	}
+}

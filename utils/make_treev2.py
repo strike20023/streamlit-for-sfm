@@ -1,3 +1,4 @@
+# %%
 import hashlib
 from graphviz import Digraph
 from sklearn.tree import _tree
@@ -74,7 +75,7 @@ def 绘制决策树(csv_file,dot_path):
         row["接受"] = value[0][0] == 0
         结果表.loc[len(结果表)] = row
     结果表 = 结果表.dropna(axis=1, how="all")
-    # display(结果表)
+    display(结果表)
 
     展示表 = list()
     保留特征 = set(
@@ -149,3 +150,4 @@ if __name__ == '__main__':
     from pathlib import Path
     for p in Path('/mnt/ST8000/huangzhe/海纹项目/streamlit_app/result_trees/').glob('*.csv'):
         绘制决策树(p,p.__str__().replace('.csv','.dot'))
+# %%

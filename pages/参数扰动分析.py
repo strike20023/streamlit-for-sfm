@@ -6,18 +6,8 @@ from utils.make_plot import display_plot
 from 定位测姿误差分析平台 import 加载图片, render_svg, check_button_clicked
 import os
 import json
-st.markdown(
-    """<style>#MainMenu {visibility: hidden;} footer {visibility: hidden;}</style>""",
-    unsafe_allow_html=True,
-)
 
 def 加载结果图片(paths, col_n=3):
-    # paths = list(Path(paths).rglob("*"))
-    # cols = [st.columns(col_n) for _ in range(len(paths) // col_n + 1)]
-    # for i, p in enumerate(paths):
-    #     cols[i // col_n][i % col_n].image(
-    #         p.__str__(), use_column_width=True, caption=p.stem
-    #     )
 
     paths = list(Path(paths).rglob("*.svg"))
     for i, p in enumerate(paths):
@@ -47,25 +37,32 @@ def app():
     to_str = lambda x: ' '.join([str(i) for i in x])
     param.update(
         {
-            'input_img': 图片组,
-            'variance': to_str(col[1].slider("特征点偏移方差范围", 0.1, 3.0, (0.3, 2.1), 0.05)),
-            'percentage': to_str(col[0].slider("特征点偏移百分比范围", 0., 1.0, (0., 1.), 0.05)),
-            'fxy': to_str(col[2].slider("焦距偏移范围", -.6, .6, (-0.3, 0.3), 0.05)),
-            'cxy': to_str(col[3].slider("光轴偏移范围", -.6, .6, (-0.3, 0.3), 0.05)),
+            'input_img': [图片组],
+            'variance': col[1].slider("特征点偏移方差范围", 0.1, 3.0, (0.3, 2.1), 0.05),
+            'percentage': col[0].slider("特征点偏移百分比范围", 0., 1.0, (0., 1.), 0.05),
+            'fxy': col[2].slider("焦距偏移范围", -.6, .6, (-0.3, 0.3), 0.05),
+            'cxy': col[3].slider("光轴偏移范围", -.6, .6, (-0.3, 0.3), 0.05),
         }
     )
+    param_str = {k:to_str(v) for k, v in param.items()}
 
-    print(param)
+
     if check_button_clicked('开始计算'):
         analysis(param)
-    if param['variance'] == '0.3 2.1' \
-        and param['percentage'] == '0.0 1.0' \
-        and param['fxy'] == '-0.3 0.3' \
-        and param['cxy'] == '-0.3 0.3':
-        # 分析_btn = st.button("开始分析")
-        
+    info = {i.parent.stem:json.load(open(i, 'r')) for i in Path('result_img/exp').rglob('info.json')}
+    print(info)
+    exist_path = None
+    for k, v in info.items():
+        if param['variance'] == tuple(v['variance']) \
+            and param['percentage'] == tuple(v['percentage']) \
+            and param['fxy'] == tuple(v['fxy']) \
+            and param['cxy'] == tuple(v['cxy']) \
+            and 图片组 == v['input_img']:
+            exist_path = k
+            break
+    if exist_path:
         if check_button_clicked("开始分析"):
             # 保存状态
-            display_plot(st, 'result_img/eg')
+            display_plot(st, Path('result_img/exp')/exist_path)
 
 app()

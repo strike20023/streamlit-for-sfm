@@ -1,0 +1,370 @@
+digraph {
+	"分类树" [label="分类树" shape=box]
+	"分类树fxy
+0.02~0.03" [label="fxy
+0.02~0.03" shape=box]
+	"分类树" -> "分类树fxy
+0.02~0.03"
+	"分类树fxy
+0.02~0.03percentage
+0.0~0.3" [label="percentage
+0.0~0.3" shape=box]
+	"分类树fxy
+0.02~0.03" -> "分类树fxy
+0.02~0.03percentage
+0.0~0.3"
+	"分类树fxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4" [label="variance
+0.9~1.4" shape=box]
+	"分类树fxy
+0.02~0.03percentage
+0.0~0.3" -> "分类树fxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4"
+	eb16206edde618e9c025b232d49788c8b33d1eb69d0017345ce8485bd183dd81 [label="cxy
+0.0~1.0" shape=box]
+	"分类树fxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4" -> eb16206edde618e9c025b232d49788c8b33d1eb69d0017345ce8485bd183dd81
+	"分类树fxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1" [label="variance
+1.5~2.1" shape=box]
+	"分类树fxy
+0.02~0.03percentage
+0.0~0.3" -> "分类树fxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1"
+	a282cf789f4f4a2cfd1f4fdfbc140b799ce2a59ca8dd61e3f160c9aef622b4d7 [label="cxy
+0.0~1.0" shape=box]
+	"分类树fxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1" -> a282cf789f4f4a2cfd1f4fdfbc140b799ce2a59ca8dd61e3f160c9aef622b4d7
+	"分类树fxy
+0.02~0.03percentage
+0.4~0.7" [label="percentage
+0.4~0.7" shape=box]
+	"分类树fxy
+0.02~0.03" -> "分类树fxy
+0.02~0.03percentage
+0.4~0.7"
+	"分类树fxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8" [label="variance
+0.3~0.8" shape=box]
+	"分类树fxy
+0.02~0.03percentage
+0.4~0.7" -> "分类树fxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8"
+	"89927f08b6c8a07d4b651e6a2fe5c1be79d7d6f0b0bab7dd6ae7d6b50931e0b6" [label="cxy
+0.0~1.0" shape=box]
+	"分类树fxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8" -> "89927f08b6c8a07d4b651e6a2fe5c1be79d7d6f0b0bab7dd6ae7d6b50931e0b6"
+	"分类树fxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4" [label="variance
+0.9~1.4" shape=box]
+	"分类树fxy
+0.02~0.03percentage
+0.4~0.7" -> "分类树fxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4"
+	"28b9f9889fe77b0d6fe4056fdbf352e4358360d13981795cba011d945257f05e" [label="cxy
+0.0~1.0" shape=box]
+	"分类树fxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4" -> "28b9f9889fe77b0d6fe4056fdbf352e4358360d13981795cba011d945257f05e"
+	"分类树fxy
+0.0~0.01" [label="fxy
+0.0~0.01" shape=box]
+	"分类树" -> "分类树fxy
+0.0~0.01"
+	"分类树fxy
+0.0~0.01percentage
+0.0~0.3" [label="percentage
+0.0~0.3" shape=box]
+	"分类树fxy
+0.0~0.01" -> "分类树fxy
+0.0~0.01percentage
+0.0~0.3"
+	"分类树fxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8" [label="variance
+0.3~0.8" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.0~0.3" -> "分类树fxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8"
+	ff01275b498aa197bb21d6228064f24757c4092f9138391bf721547b61d7f576 [label="cxy
+0.0~1.0" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8" -> ff01275b498aa197bb21d6228064f24757c4092f9138391bf721547b61d7f576
+	"分类树fxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4" [label="variance
+0.9~1.4" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.0~0.3" -> "分类树fxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4"
+	"0ee5138544811e5f29aaa4940dd2f3c73cf1b46cfe131a944845e76e6b6ca9d7" [label="cxy
+0.0~1.0" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4" -> "0ee5138544811e5f29aaa4940dd2f3c73cf1b46cfe131a944845e76e6b6ca9d7"
+	"分类树fxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1" [label="variance
+1.5~2.1" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.0~0.3" -> "分类树fxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1"
+	"3e335320f6786735806bb52ca8f556c62a89b04e95f380a7de50cc5867aa2657" [label="cxy
+0.0~1.0" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1" -> "3e335320f6786735806bb52ca8f556c62a89b04e95f380a7de50cc5867aa2657"
+	"分类树fxy
+0.0~0.01percentage
+0.4~0.7" [label="percentage
+0.4~0.7" shape=box]
+	"分类树fxy
+0.0~0.01" -> "分类树fxy
+0.0~0.01percentage
+0.4~0.7"
+	"分类树fxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8" [label="variance
+0.3~0.8" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.4~0.7" -> "分类树fxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8"
+	"861e32a54c2264f8f5140559cf2c15078bd6c51168cb7a0699985d3b01cd42fe" [label="cxy
+0.0~1.0" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8" -> "861e32a54c2264f8f5140559cf2c15078bd6c51168cb7a0699985d3b01cd42fe"
+	"分类树fxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4" [label="variance
+0.9~1.4" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.4~0.7" -> "分类树fxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4"
+	"3fd02714bbd8d6655b9281bea7007936e77e468fe535c39268a361b8828c46f2" [label="cxy
+0.0~1.0" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4" -> "3fd02714bbd8d6655b9281bea7007936e77e468fe535c39268a361b8828c46f2"
+	"分类树fxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1" [label="variance
+1.5~2.1" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.4~0.7" -> "分类树fxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1"
+	"475b31a4fff73cc527cb7637b942e9227dfa1b9d41ef95753451456b7c3a5e36" [label="cxy
+0.0~1.0" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1" -> "475b31a4fff73cc527cb7637b942e9227dfa1b9d41ef95753451456b7c3a5e36"
+	"分类树fxy
+0.0~0.01percentage
+0.7~1.0" [label="percentage
+0.7~1.0" shape=box]
+	"分类树fxy
+0.0~0.01" -> "分类树fxy
+0.0~0.01percentage
+0.7~1.0"
+	"分类树fxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8" [label="variance
+0.3~0.8" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.7~1.0" -> "分类树fxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8"
+	"369cad8da88af3c136555aeb721b25214027de43e1aeaf28135166f62fe16617" [label="cxy
+0.0~1.0" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8" -> "369cad8da88af3c136555aeb721b25214027de43e1aeaf28135166f62fe16617"
+	"分类树fxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4" [label="variance
+0.9~1.4" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.7~1.0" -> "分类树fxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4"
+	"50b0b9ede436732fe33262c42134c8639f003b184601bafd497722897eb32db2" [label="cxy
+0.0~1.0" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4" -> "50b0b9ede436732fe33262c42134c8639f003b184601bafd497722897eb32db2"
+	"分类树fxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1" [label="variance
+1.5~2.1" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.7~1.0" -> "分类树fxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1"
+	"113cec7ce37de9a688e89a16b07762bf4546b9c0e8ad307ef362494ec82bfc3c" [label="cxy
+0.0~1.0" shape=box]
+	"分类树fxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1" -> "113cec7ce37de9a688e89a16b07762bf4546b9c0e8ad307ef362494ec82bfc3c"
+	{
+		rank=same
+		"分类树fxy
+0.02~0.03"
+		"分类树fxy
+0.0~0.01"
+	}
+	{
+		rank=same
+		"分类树fxy
+0.02~0.03percentage
+0.0~0.3"
+		"分类树fxy
+0.02~0.03percentage
+0.4~0.7"
+		"分类树fxy
+0.0~0.01percentage
+0.0~0.3"
+		"分类树fxy
+0.0~0.01percentage
+0.4~0.7"
+		"分类树fxy
+0.0~0.01percentage
+0.7~1.0"
+	}
+	{
+		rank=same
+		"分类树fxy
+0.02~0.03percentage
+0.0~0.3variance
+0.9~1.4"
+		"分类树fxy
+0.02~0.03percentage
+0.0~0.3variance
+1.5~2.1"
+		"分类树fxy
+0.02~0.03percentage
+0.4~0.7variance
+0.3~0.8"
+		"分类树fxy
+0.02~0.03percentage
+0.4~0.7variance
+0.9~1.4"
+		"分类树fxy
+0.0~0.01percentage
+0.0~0.3variance
+0.3~0.8"
+		"分类树fxy
+0.0~0.01percentage
+0.0~0.3variance
+0.9~1.4"
+		"分类树fxy
+0.0~0.01percentage
+0.0~0.3variance
+1.5~2.1"
+		"分类树fxy
+0.0~0.01percentage
+0.4~0.7variance
+0.3~0.8"
+		"分类树fxy
+0.0~0.01percentage
+0.4~0.7variance
+0.9~1.4"
+		"分类树fxy
+0.0~0.01percentage
+0.4~0.7variance
+1.5~2.1"
+		"分类树fxy
+0.0~0.01percentage
+0.7~1.0variance
+0.3~0.8"
+		"分类树fxy
+0.0~0.01percentage
+0.7~1.0variance
+0.9~1.4"
+		"分类树fxy
+0.0~0.01percentage
+0.7~1.0variance
+1.5~2.1"
+	}
+	{
+		rank=same
+		eb16206edde618e9c025b232d49788c8b33d1eb69d0017345ce8485bd183dd81
+		a282cf789f4f4a2cfd1f4fdfbc140b799ce2a59ca8dd61e3f160c9aef622b4d7
+		"89927f08b6c8a07d4b651e6a2fe5c1be79d7d6f0b0bab7dd6ae7d6b50931e0b6"
+		"28b9f9889fe77b0d6fe4056fdbf352e4358360d13981795cba011d945257f05e"
+		ff01275b498aa197bb21d6228064f24757c4092f9138391bf721547b61d7f576
+		"0ee5138544811e5f29aaa4940dd2f3c73cf1b46cfe131a944845e76e6b6ca9d7"
+		"3e335320f6786735806bb52ca8f556c62a89b04e95f380a7de50cc5867aa2657"
+		"861e32a54c2264f8f5140559cf2c15078bd6c51168cb7a0699985d3b01cd42fe"
+		"3fd02714bbd8d6655b9281bea7007936e77e468fe535c39268a361b8828c46f2"
+		"475b31a4fff73cc527cb7637b942e9227dfa1b9d41ef95753451456b7c3a5e36"
+		"369cad8da88af3c136555aeb721b25214027de43e1aeaf28135166f62fe16617"
+		"50b0b9ede436732fe33262c42134c8639f003b184601bafd497722897eb32db2"
+		"113cec7ce37de9a688e89a16b07762bf4546b9c0e8ad307ef362494ec82bfc3c"
+	}
+}

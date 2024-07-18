@@ -6,6 +6,11 @@ from pathlib import Path
 import re
 st.set_page_config(page_title="定位测姿误差分析平台", layout='wide')
 
+
+st.markdown(
+    """<style>#MainMenu {visibility: hidden;} footer {visibility: hidden;}</style>""",
+    unsafe_allow_html=True,
+)
 def check_button_clicked(button_name):
     if st.button(button_name):
         st.session_state[button_name] = True
@@ -24,7 +29,7 @@ def 加载图片(paths):
             cols[1].write(图片文件夹.stem)
             for i, p in enumerate(图片列表):
                 cols[i+2].image(p.__str__(), use_column_width=True)
-            break
+            # break
 
 # @st.cache_resource()
 def render_svg(svg_path):
@@ -96,11 +101,11 @@ param=[['特征点偏移量',
 #     unsafe_allow_html=True,
 # )
 # plot
-import pandas as pd
-df = pd.DataFrame({
-  '特征点偏移量': [1, 2, 3],
-  '焦距偏移量': [1, 2, 3],
-  '光轴偏移量': [1, 2, 3],
-  '特征点偏移百分比范围': [1, 2, 3]
-})
-st.scatter_chart(data=df, x='特征点偏移量', y='焦距偏移量', color='光轴偏移量', size='特征点偏移百分比范围', width=0, height=0, use_container_width=True)
+# import pandas as pd
+# df = pd.DataFrame({
+#   '特征点偏移量': [1, 2, 3],
+#   '焦距偏移量': [1, 2, 3],
+#   '光轴偏移量': [1, 2, 3],
+#   '特征点偏移百分比范围': [1, 2, 3]
+# })
+# st.scatter_chart(data=df, x='特征点偏移量', y='焦距偏移量', color='光轴偏移量', size='特征点偏移百分比范围', width=0, height=0, use_container_width=True)
