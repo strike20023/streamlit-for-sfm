@@ -5,11 +5,10 @@ import base64
 from pathlib import Path
 import re
 st.set_page_config(page_title="定位测姿误差分析平台", layout='wide')
-
-
 st.markdown(
-    """<style>#MainMenu {visibility: hidden;} footer {visibility: hidden;}</style>""",
+    """<style>#MainMenu {visibility: hidden;} footer {visibility: hidden;} body {background-color: #ADD8E6;}</style>""",
     unsafe_allow_html=True,
+
 )
 def check_button_clicked(button_name):
     if st.button(button_name):
