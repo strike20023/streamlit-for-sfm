@@ -71,8 +71,8 @@ def tree_to_code(结果表):
                 字典[特征] = f"{特征}\n<{row[特征+'_r']}"
             else:
                 字典[特征] = ""
-        # 字典["接受"] = "接受" if row["接受"] else "拒绝"
-        # 字典["数量"] = str(row["数量"])
+        字典["接受"] = "接受" if row["接受"] else "拒绝"
+        字典["数量"] = str(row["数量"])
         展示表.append(字典)
     展示表 = pd.DataFrame(展示表)
     return 展示表

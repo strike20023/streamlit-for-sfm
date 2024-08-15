@@ -1,0 +1,16 @@
+{
+    "DATA_DIR": "1-5",
+    "reward_threshold": 0.05,
+    "percentage_min": 0.3,
+    "percentage_max": 2.1,
+    "variance_min": 0.0,
+    "variance_max": 1.0,
+    "fxy_action_min": -0.6,
+    "fxy_action_max": 0.6,
+    "cxy_action_min": -0.6,
+    "cxy_action_max": 0.6,
+    "variance": 0.1,
+    "percentage": 0.05,
+    "fxy_action": 0.02,
+    "cxy_action": 0.05
+}
