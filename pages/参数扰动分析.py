@@ -40,8 +40,8 @@ def app():
             'input_img': [图片组],
             'variance': col[1].slider("特征点偏移方差范围", 0.1, 3.0, (0.3, 2.1), 0.05),
             'percentage': col[0].slider("特征点偏移百分比范围", 0., 1.0, (0., 1.), 0.05),
-            'fxy': col[2].slider("焦距偏移范围", -.6, .6, (-0.3, 0.3), 0.05),
-            'cxy': col[3].slider("光轴偏移范围", -.6, .6, (-0.3, 0.3), 0.05),
+            'fxy': col[2].slider("焦距偏移范围", -.6, .6, (-0.6, 0.6), 0.05),
+            'cxy': col[3].slider("光轴偏移范围", -.6, .6, (-0.6, 0.6), 0.05),
         }
     )
     param_str = {k:to_str(v) for k, v in param.items()}

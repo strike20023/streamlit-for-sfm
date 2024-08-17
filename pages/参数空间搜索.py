@@ -37,10 +37,10 @@ def app():
     col = st.columns(4)
     param.update(
         {
-            **{ ('percentage_'+['min','max'][idx]):i for idx, i in enumerate(col[0].slider("特征点偏移百分比范围", 0.1, 3.0, (0.3, 2.1), 0.05))},
-            **{ ('variance_'+['min','max'][idx]):i for idx, i in enumerate(col[1].slider("特征点偏移方差范围", 0., 1.0, (0., 1.), 0.05))},
-            **{ ('fxy_action_'+['min','max'][idx]):i for idx, i in enumerate(col[2].slider("焦距偏移范围", -.6, .6, (-0.3, 0.3), 0.05))},
-            **{ ('cxy_action_'+['min','max'][idx]):i for idx, i in enumerate(col[3].slider("光轴偏移范围", -.6, .6, (-0.3, 0.3), 0.05))},
+            **{ ('percentage_'+['min','max'][idx]):i for idx, i in enumerate(col[0].slider("特征点偏移百分比范围", 0., 1.0, (0., 1.), 0.05))},
+            **{ ('variance_'+['min','max'][idx]):i for idx, i in enumerate(col[1].slider("特征点偏移方差范围", 0.1, 3.0, (0.3, 2.1), 0.05))},
+            **{ ('fxy_action_'+['min','max'][idx]):i for idx, i in enumerate(col[2].slider("焦距偏移范围", -.6, .6, (-0.6, 0.6), 0.05))},
+            **{ ('cxy_action_'+['min','max'][idx]):i for idx, i in enumerate(col[3].slider("光轴偏移范围", -.6, .6, (-0.6, 0.6), 0.05))},
         }
     )
     col = st.columns(4)

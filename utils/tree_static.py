@@ -46,7 +46,7 @@ def get_product_data(branch_data, data_file):
         if accept > refuse:
             product_data.loc[idx, '接受'] = True
     product_data = product_data[product_data['_数量'] > 0]
-    product_data = product_data[product_data['接受'] == True]
+    # product_data = product_data[product_data['接受'] == True]
     return product_data
 # %%
 
@@ -140,4 +140,4 @@ def get_tree(branch_csv, data_file, output_format='pdf'):
     dot.render(Path(data_file).parent/'tree')
     return
 if __name__ == '__main__':
-    get_tree('分支.csv', '/Users/huangzhe/Documents/GitHub/streamlit-for-sfm/result_tree/eg/results_1-5.csv', 'svg')
+    get_tree('分支.csv', '../result_tree/eg/results_1-5.csv', 'svg')

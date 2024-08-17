@@ -24,18 +24,108 @@ digraph {
 -0.04~0.04percentage
 0.0~0.3variance
 0.3~0.8"
-	ca0a7dc3e2d6bb67347de6089252bd2e7f377df7d758313028c380a7d0a0b887 [label="cxy
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4" [label="cxy
 -0.4~0.4" shape=box]
 	"分类树fxy
 -0.04~0.04percentage
 0.0~0.3variance
-0.3~0.8" -> ca0a7dc3e2d6bb67347de6089252bd2e7f377df7d758313028c380a7d0a0b887
-	ca0a7dc3e2d6bb67347de6089252bd2e7f377df7d758313028c380a7d0a0b887 [label="cxy
+0.3~0.8" -> "分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4"
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4接受" [label="接受" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4" -> "分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4接受"
+	b93fd31fb0c17776116aa84a1dcdaf9b27c70c71580839c308f79498ebca824a [label="[799, 77]" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4接受" -> b93fd31fb0c17776116aa84a1dcdaf9b27c70c71580839c308f79498ebca824a
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4" [label="cxy
 -0.6~-0.4" shape=box]
 	"分类树fxy
 -0.04~0.04percentage
 0.0~0.3variance
-0.3~0.8" -> ca0a7dc3e2d6bb67347de6089252bd2e7f377df7d758313028c380a7d0a0b887
+0.3~0.8" -> "分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4"
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4接受" [label="接受" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4" -> "分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4接受"
+	"03d43b00286abd40da7be8fdbfeddf0a5fc6cd94735d584d873cbbe4aa1ecff0" [label="[273, 43]" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4接受" -> "03d43b00286abd40da7be8fdbfeddf0a5fc6cd94735d584d873cbbe4aa1ecff0"
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.4~0.6" [label="cxy
+0.4~0.6" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8" -> "分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.4~0.6"
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.4~0.6拒绝" [label="拒绝" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.4~0.6" -> "分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.4~0.6拒绝"
+	"71261f15bfbbd36b76d3dcc698e2643c0d39aa5bcef7ab09132dd8f786e602d0" [label="[0, 4]" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.4~0.6拒绝" -> "71261f15bfbbd36b76d3dcc698e2643c0d39aa5bcef7ab09132dd8f786e602d0"
 	"分类树fxy
 -0.04~0.04percentage
 0.0~0.3variance
@@ -47,18 +137,74 @@ digraph {
 -0.04~0.04percentage
 0.0~0.3variance
 0.9~1.4"
-	"86db89cf92ce4ed102059b7621aa44a9f82f4ba775e1650a738a96752fcf4a98" [label="cxy
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4" [label="cxy
 -0.4~0.4" shape=box]
 	"分类树fxy
 -0.04~0.04percentage
 0.0~0.3variance
-0.9~1.4" -> "86db89cf92ce4ed102059b7621aa44a9f82f4ba775e1650a738a96752fcf4a98"
-	"86db89cf92ce4ed102059b7621aa44a9f82f4ba775e1650a738a96752fcf4a98" [label="cxy
+0.9~1.4" -> "分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4"
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4接受" [label="接受" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4" -> "分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4接受"
+	ecc67c5ac594d3b6d4b25941faccb23cdf616e46afdfec475babd540cf79c5f3 [label="[7, 0]" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4接受" -> ecc67c5ac594d3b6d4b25941faccb23cdf616e46afdfec475babd540cf79c5f3
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4" [label="cxy
 -0.6~-0.4" shape=box]
 	"分类树fxy
 -0.04~0.04percentage
 0.0~0.3variance
-0.9~1.4" -> "86db89cf92ce4ed102059b7621aa44a9f82f4ba775e1650a738a96752fcf4a98"
+0.9~1.4" -> "分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4"
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4接受" [label="接受" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4" -> "分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4接受"
+	f95356a036274816c4ade60ebc1bb7a8c7c99236278829570e12aeb600470fe5 [label="[81, 1]" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4接受" -> f95356a036274816c4ade60ebc1bb7a8c7c99236278829570e12aeb600470fe5
 	"分类树fxy
 -0.04~0.04percentage
 0.0~0.3variance
@@ -70,12 +216,40 @@ digraph {
 -0.04~0.04percentage
 0.0~0.3variance
 1.5~2.1"
-	"22f42f5920f6ebeb40972b31245f076fd3365fb842cb008fc3b284abd1fae257" [label="cxy
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4" [label="cxy
 -0.6~-0.4" shape=box]
 	"分类树fxy
 -0.04~0.04percentage
 0.0~0.3variance
-1.5~2.1" -> "22f42f5920f6ebeb40972b31245f076fd3365fb842cb008fc3b284abd1fae257"
+1.5~2.1" -> "分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4"
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4接受" [label="接受" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4" -> "分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4接受"
+	"8ec12a23eba7eae75444e7b6843c8094996e2f2f0fb2a995d81787027bf444d2" [label="[27, 1]" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4接受" -> "8ec12a23eba7eae75444e7b6843c8094996e2f2f0fb2a995d81787027bf444d2"
 	"分类树fxy
 -0.04~0.04percentage
 0.35~0.7" [label="percentage
@@ -95,18 +269,74 @@ digraph {
 -0.04~0.04percentage
 0.35~0.7variance
 0.3~0.8"
-	d8a499a38406b301dcc3859d14d44151811f5c58c77bd0bac64aa2c959346299 [label="cxy
+	"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4" [label="cxy
 -0.4~0.4" shape=box]
 	"分类树fxy
 -0.04~0.04percentage
 0.35~0.7variance
-0.3~0.8" -> d8a499a38406b301dcc3859d14d44151811f5c58c77bd0bac64aa2c959346299
-	d8a499a38406b301dcc3859d14d44151811f5c58c77bd0bac64aa2c959346299 [label="cxy
+0.3~0.8" -> "分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4"
+	"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4接受" [label="接受" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4" -> "分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4接受"
+	e7c77b5c8f712f13062cad801907bfd3b1a6eb64c4ac224acc104b8b01af5daf [label="[70, 1]" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4接受" -> e7c77b5c8f712f13062cad801907bfd3b1a6eb64c4ac224acc104b8b01af5daf
+	"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4" [label="cxy
 -0.6~-0.4" shape=box]
 	"分类树fxy
 -0.04~0.04percentage
 0.35~0.7variance
-0.3~0.8" -> d8a499a38406b301dcc3859d14d44151811f5c58c77bd0bac64aa2c959346299
+0.3~0.8" -> "分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4"
+	"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4接受" [label="接受" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4" -> "分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4接受"
+	a1e09a8fdbc5b4d7dfd8d6e4aa13d4da66dc98a20d52085369c24df020cb2cfa [label="[42, 2]" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4接受" -> a1e09a8fdbc5b4d7dfd8d6e4aa13d4da66dc98a20d52085369c24df020cb2cfa
 	"分类树fxy
 -0.04~0.04percentage
 0.35~0.7variance
@@ -118,12 +348,40 @@ digraph {
 -0.04~0.04percentage
 0.35~0.7variance
 0.9~1.4"
-	b171f3beddacd0770868d4c1bc326019d80908bc903cd9b51da380674c3ed4a1 [label="cxy
+	"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4" [label="cxy
 -0.6~-0.4" shape=box]
 	"分类树fxy
 -0.04~0.04percentage
 0.35~0.7variance
-0.9~1.4" -> b171f3beddacd0770868d4c1bc326019d80908bc903cd9b51da380674c3ed4a1
+0.9~1.4" -> "分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4"
+	"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4接受" [label="接受" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4" -> "分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4接受"
+	"13cc4ca67e5b5552b6c76a5a0a78657fd25ef55e42938031b120ba0b02bdc965" [label="[13, 2]" shape=box]
+	"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4接受" -> "13cc4ca67e5b5552b6c76a5a0a78657fd25ef55e42938031b120ba0b02bdc965"
 	"分类树fxy
 -0.6~-0.04" [label="fxy
 -0.6~-0.04" shape=box]
@@ -148,12 +406,74 @@ digraph {
 -0.6~-0.04percentage
 0.0~0.3variance
 0.3~0.8"
-	daab3d675b2a39b1c9e3103de7625283e0fc0058eff7edf5820a4dbae50cc9f4 [label="cxy
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4" [label="cxy
+-0.4~0.4" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8" -> "分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4"
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4拒绝" [label="拒绝" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4" -> "分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4拒绝"
+	"61e7bc9f2ae6a0b34c349d5583be4642fd67aeb2f0474a2e67afd7116c0e1bdf" [label="[35, 94]" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4拒绝" -> "61e7bc9f2ae6a0b34c349d5583be4642fd67aeb2f0474a2e67afd7116c0e1bdf"
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4" [label="cxy
 -0.6~-0.4" shape=box]
 	"分类树fxy
 -0.6~-0.04percentage
 0.0~0.3variance
-0.3~0.8" -> daab3d675b2a39b1c9e3103de7625283e0fc0058eff7edf5820a4dbae50cc9f4
+0.3~0.8" -> "分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4"
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4接受" [label="接受" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4" -> "分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4接受"
+	e9a07fa1a2c656c0761dfda4e9a32941cc9c4d39fe812de3b7d0160e68ee4dac [label="[94, 36]" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4接受" -> e9a07fa1a2c656c0761dfda4e9a32941cc9c4d39fe812de3b7d0160e68ee4dac
 	"分类树fxy
 -0.6~-0.04percentage
 0.0~0.3variance
@@ -165,12 +485,74 @@ digraph {
 -0.6~-0.04percentage
 0.0~0.3variance
 0.9~1.4"
-	"7402f632217b5805831f283d519da4fbf2e80e63edcf5e428b80bb31a09b3ad1" [label="cxy
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4" [label="cxy
+-0.4~0.4" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4" -> "分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4"
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4拒绝" [label="拒绝" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4" -> "分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4拒绝"
+	b1984361d43e0759ffba6e4ea55d1825396dc605501471540fe71b1e865d40a4 [label="[0, 1]" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4拒绝" -> b1984361d43e0759ffba6e4ea55d1825396dc605501471540fe71b1e865d40a4
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4" [label="cxy
 -0.6~-0.4" shape=box]
 	"分类树fxy
 -0.6~-0.04percentage
 0.0~0.3variance
-0.9~1.4" -> "7402f632217b5805831f283d519da4fbf2e80e63edcf5e428b80bb31a09b3ad1"
+0.9~1.4" -> "分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4"
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4接受" [label="接受" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4" -> "分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4接受"
+	ecd77f7c3bd59c91c19da281495d4f6d287ade8670a9bcacce9d507ed0afebaf [label="[41, 9]" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4接受" -> ecd77f7c3bd59c91c19da281495d4f6d287ade8670a9bcacce9d507ed0afebaf
 	"分类树fxy
 -0.6~-0.04percentage
 0.0~0.3variance
@@ -182,12 +564,40 @@ digraph {
 -0.6~-0.04percentage
 0.0~0.3variance
 1.5~2.1"
-	ae2adbf71ed35415bcb1412ebc103e9f0d6c03785cfb2712810069c1a634ebdb [label="cxy
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4" [label="cxy
 -0.6~-0.4" shape=box]
 	"分类树fxy
 -0.6~-0.04percentage
 0.0~0.3variance
-1.5~2.1" -> ae2adbf71ed35415bcb1412ebc103e9f0d6c03785cfb2712810069c1a634ebdb
+1.5~2.1" -> "分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4"
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4接受" [label="接受" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4" -> "分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4接受"
+	"5bd3fd2a58ce93e49fd9cdc21af8b4b20cd73c9061b958297fbb88bc4ed1f5df" [label="[6, 2]" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4接受" -> "5bd3fd2a58ce93e49fd9cdc21af8b4b20cd73c9061b958297fbb88bc4ed1f5df"
 	"分类树fxy
 -0.6~-0.04percentage
 0.35~0.7" [label="percentage
@@ -207,18 +617,119 @@ digraph {
 -0.6~-0.04percentage
 0.35~0.7variance
 0.3~0.8"
-	"0ef452853b9bb036ea99d73ade3a57da5369ba921a02d111d0cd3846149737f4" [label="cxy
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4" [label="cxy
 -0.4~0.4" shape=box]
 	"分类树fxy
 -0.6~-0.04percentage
 0.35~0.7variance
-0.3~0.8" -> "0ef452853b9bb036ea99d73ade3a57da5369ba921a02d111d0cd3846149737f4"
-	"0ef452853b9bb036ea99d73ade3a57da5369ba921a02d111d0cd3846149737f4" [label="cxy
+0.3~0.8" -> "分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4"
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4接受" [label="接受" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4" -> "分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4接受"
+	"72b4d177e68bf07496beece18430d7ca257a68e696dadb565bf00f50fb347e98" [label="[12, 10]" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4接受" -> "72b4d177e68bf07496beece18430d7ca257a68e696dadb565bf00f50fb347e98"
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4" [label="cxy
 -0.6~-0.4" shape=box]
 	"分类树fxy
 -0.6~-0.04percentage
 0.35~0.7variance
-0.3~0.8" -> "0ef452853b9bb036ea99d73ade3a57da5369ba921a02d111d0cd3846149737f4"
+0.3~0.8" -> "分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4"
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4接受" [label="接受" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4" -> "分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4接受"
+	"88a7844ca320e50248a2d56bfbbfe28b888fb20ca0c6841c9376fb3cdc191228" [label="[14, 8]" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4接受" -> "88a7844ca320e50248a2d56bfbbfe28b888fb20ca0c6841c9376fb3cdc191228"
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.9~1.4" [label="variance
+0.9~1.4" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7" -> "分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.9~1.4"
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4" [label="cxy
+-0.6~-0.4" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.9~1.4" -> "分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4"
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4拒绝" [label="拒绝" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4" -> "分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4拒绝"
+	f711027c2df9473afafef83cd2ca4d6c5d8d1afa191846a29db1d87000a295cc [label="[2, 2]" shape=box]
+	"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4拒绝" -> f711027c2df9473afafef83cd2ca4d6c5d8d1afa191846a29db1d87000a295cc
 	"分类树fxy
 0.04~0.6" [label="fxy
 0.04~0.6" shape=box]
@@ -243,12 +754,40 @@ digraph {
 0.04~0.6percentage
 0.0~0.3variance
 0.3~0.8"
-	c7c203a29e7633e37d59f465395547b8c6a6e2f81474b658ea8ed27b6a53c1e1 [label="cxy
+	"分类树fxy
+0.04~0.6percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4" [label="cxy
 -0.4~0.4" shape=box]
 	"分类树fxy
 0.04~0.6percentage
 0.0~0.3variance
-0.3~0.8" -> c7c203a29e7633e37d59f465395547b8c6a6e2f81474b658ea8ed27b6a53c1e1
+0.3~0.8" -> "分类树fxy
+0.04~0.6percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4"
+	"分类树fxy
+0.04~0.6percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4接受" [label="接受" shape=box]
+	"分类树fxy
+0.04~0.6percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4" -> "分类树fxy
+0.04~0.6percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4接受"
+	f4bcff023ecda98bcc262e91422b5b850301cf715b9b6f3034dc704b91712756 [label="[84, 80]" shape=box]
+	"分类树fxy
+0.04~0.6percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4接受" -> f4bcff023ecda98bcc262e91422b5b850301cf715b9b6f3034dc704b91712756
 	{
 		rank=same
 		"分类树fxy
@@ -315,25 +854,219 @@ digraph {
 0.35~0.7variance
 0.3~0.8"
 		"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.9~1.4"
+		"分类树fxy
 0.04~0.6percentage
 0.0~0.3variance
 0.3~0.8"
 	}
 	{
 		rank=same
-		ca0a7dc3e2d6bb67347de6089252bd2e7f377df7d758313028c380a7d0a0b887
-		ca0a7dc3e2d6bb67347de6089252bd2e7f377df7d758313028c380a7d0a0b887
-		"86db89cf92ce4ed102059b7621aa44a9f82f4ba775e1650a738a96752fcf4a98"
-		"86db89cf92ce4ed102059b7621aa44a9f82f4ba775e1650a738a96752fcf4a98"
-		"22f42f5920f6ebeb40972b31245f076fd3365fb842cb008fc3b284abd1fae257"
-		d8a499a38406b301dcc3859d14d44151811f5c58c77bd0bac64aa2c959346299
-		d8a499a38406b301dcc3859d14d44151811f5c58c77bd0bac64aa2c959346299
-		b171f3beddacd0770868d4c1bc326019d80908bc903cd9b51da380674c3ed4a1
-		daab3d675b2a39b1c9e3103de7625283e0fc0058eff7edf5820a4dbae50cc9f4
-		"7402f632217b5805831f283d519da4fbf2e80e63edcf5e428b80bb31a09b3ad1"
-		ae2adbf71ed35415bcb1412ebc103e9f0d6c03785cfb2712810069c1a634ebdb
-		"0ef452853b9bb036ea99d73ade3a57da5369ba921a02d111d0cd3846149737f4"
-		"0ef452853b9bb036ea99d73ade3a57da5369ba921a02d111d0cd3846149737f4"
-		c7c203a29e7633e37d59f465395547b8c6a6e2f81474b658ea8ed27b6a53c1e1
+		"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4"
+		"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4"
+		"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.4~0.6"
+		"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4"
+		"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4"
+		"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4"
+		"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4"
+		"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4"
+		"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4"
+		"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4"
+		"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4"
+		"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4"
+		"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4"
+		"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4"
+		"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4"
+		"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4"
+		"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4"
+		"分类树fxy
+0.04~0.6percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4"
+	}
+	{
+		rank=same
+		"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4接受"
+		"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4接受"
+		"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+0.4~0.6拒绝"
+		"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4接受"
+		"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4接受"
+		"分类树fxy
+-0.04~0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4接受"
+		"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4接受"
+		"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4接受"
+		"分类树fxy
+-0.04~0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4接受"
+		"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4拒绝"
+		"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.6~-0.4接受"
+		"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.4~0.4拒绝"
+		"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+0.9~1.4cxy
+-0.6~-0.4接受"
+		"分类树fxy
+-0.6~-0.04percentage
+0.0~0.3variance
+1.5~2.1cxy
+-0.6~-0.4接受"
+		"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.4~0.4接受"
+		"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.3~0.8cxy
+-0.6~-0.4接受"
+		"分类树fxy
+-0.6~-0.04percentage
+0.35~0.7variance
+0.9~1.4cxy
+-0.6~-0.4拒绝"
+		"分类树fxy
+0.04~0.6percentage
+0.0~0.3variance
+0.3~0.8cxy
+-0.4~0.4接受"
+	}
+	{
+		rank=same
+		b93fd31fb0c17776116aa84a1dcdaf9b27c70c71580839c308f79498ebca824a
+		"03d43b00286abd40da7be8fdbfeddf0a5fc6cd94735d584d873cbbe4aa1ecff0"
+		"71261f15bfbbd36b76d3dcc698e2643c0d39aa5bcef7ab09132dd8f786e602d0"
+		ecc67c5ac594d3b6d4b25941faccb23cdf616e46afdfec475babd540cf79c5f3
+		f95356a036274816c4ade60ebc1bb7a8c7c99236278829570e12aeb600470fe5
+		"8ec12a23eba7eae75444e7b6843c8094996e2f2f0fb2a995d81787027bf444d2"
+		e7c77b5c8f712f13062cad801907bfd3b1a6eb64c4ac224acc104b8b01af5daf
+		a1e09a8fdbc5b4d7dfd8d6e4aa13d4da66dc98a20d52085369c24df020cb2cfa
+		"13cc4ca67e5b5552b6c76a5a0a78657fd25ef55e42938031b120ba0b02bdc965"
+		"61e7bc9f2ae6a0b34c349d5583be4642fd67aeb2f0474a2e67afd7116c0e1bdf"
+		e9a07fa1a2c656c0761dfda4e9a32941cc9c4d39fe812de3b7d0160e68ee4dac
+		b1984361d43e0759ffba6e4ea55d1825396dc605501471540fe71b1e865d40a4
+		ecd77f7c3bd59c91c19da281495d4f6d287ade8670a9bcacce9d507ed0afebaf
+		"5bd3fd2a58ce93e49fd9cdc21af8b4b20cd73c9061b958297fbb88bc4ed1f5df"
+		"72b4d177e68bf07496beece18430d7ca257a68e696dadb565bf00f50fb347e98"
+		"88a7844ca320e50248a2d56bfbbfe28b888fb20ca0c6841c9376fb3cdc191228"
+		f711027c2df9473afafef83cd2ca4d6c5d8d1afa191846a29db1d87000a295cc
+		f4bcff023ecda98bcc262e91422b5b850301cf715b9b6f3034dc704b91712756
 	}
 }
